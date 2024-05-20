@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PONDO</title>
+    <link rel="stylesheet" href="style.css" />
+
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+
+<!-- Navbar Section-->
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top justify-content-between pe-5">  
+  <ul class="nav nav-tabs">
+    <li class="nav-item">
+      <a class="nav-link active" href="#Home"><h4>Home</h4></a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#Profile"><h4>Profile</h4></a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#contact"><h4>Contact</h4></a>
+    </li>
+  </ul>
+  <div class="container-login">
+    <button id="logIn" type="button" class="btn btn-outline-primary" onclick="clickLogin()">Log-in</button>
+  </div>
+</nav>
+
+ <!-- ================Background image Section======================= -->
+<div class="container-fluid">
+  <div id="Home" class="row justify-content-center ">
+    <div class="col-12 col-md-6 textblock row justify-content-around">
+      <div class="pt-3 ps-0 ps-md-5 align-items-center ms-0 ms-md-5">
+        <div class="mb-5 benefitslist d-none d-md-block fs-1">
+          <p>FAST CASH</p>
+          <p>SECURE AND FAST PROCESSING</p>
+          <p>INVESTMENT PROGRAM</p>
+        </div>
+        <div class="app-title fs-4 text-center text-md-start">
+          <p>we got you here at</p>
+          <p class="pondo">PONDO</p>
+          <p>The NO.1 Lending App in Kodego</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-md-4 img text-center text-md-start align-items-end">
+      <img src="images/kg3.png" alt="" style="width: 80%; object-fit: contain;">
+      <div class="mb-5 benefitslist d-blcok d-md-none fs-1 text-center">
+        <p>FAST CASH</p>
+        <p>SECURE AND FAST PROCESSING</p>
+        <p>INVESTMENT PROGRAM</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Overview -->
+
+<blockquote id="Profile" class="blockquote text-center">
+  <footer class="blockquote-footer">
+    <div>
+      Pondo is a cutting-edge online platform that revolutionizes the way individuals manage their finances by offering both lending and saving solutions in one convenient space. 
+    </div>
+    <div>
+      <cite title="Source Title"><strong>Whether you're looking to borrow money or grow your savings, Pondo provides a seamless and secure environment to meet your financial needs.</strong></cite>
+    </div>
+ </footer>
+</blockquote>
+
+<!-- Key Features / About-Us -->
+
+  <div class="container bcontent">
+    <hr/>
+    <div class="card" style="width: 100%;">
+        <div class="row no-gutters">
+            <div class="col-sm-5">
+                <img class="card-img img-fluid" src="images/feature2.jpg" alt="...">
+            </div>
+            <div class="col-sm-7">
+                <div class="card-body text-features1 mt-5">
+                    <h5 class="card-title"><strong>Lending Services:</strong></h5>
+                    <p class="card-text">Borrowers can access a variety of loan options tailored to their specific needs, including personal loans, business loans, and more.
+                    Flexible repayment terms and competitive interest rates ensure affordability and convenience for borrowers.
+                    Streamlined application processes and quick approval turnaround times make accessing funds hassle-free.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container bcontent">
+  <div class="card" style="width: 100%;">
+      <div class="row no-gutters">
+        <div class="col-sm-7">
+          <div class="card-body text-features2 mt-5">
+              <h5 class="card-title"><strong> Solutions:</strong></h5>
+              <p class="card-text">Savers can choose from a range of savings products designed to help them achieve their financial goals, whether it's building an emergency fund, saving for a vacation, or planning for retirement.
+              High-yield savings accounts offer attractive interest rates to maximize savings growth over time.
+              Automatic savings features and goal-tracking tools empower users to stay on track with their savings objectives.</p>
+          </div>
+      </div>
+          <div class="col-sm-5">
+              <img class="card-img img-fluid" src="images/feature7.png" alt="...">
+          </div>
+          
+      </div>
+  </div>
+</div>
+
+<div class="container bcontent">
+  <div class="card" style="width: 100%;">
+      <div class="row no-gutters">
+          <div class="col-sm-5">
+              <img class="card-img img-fluid" src="images/feature4.jpg" alt="...">
+          </div>
+          <div class="col-sm-7">
+              <div class="card-body text-features1 mt-5">
+                  <h5 class="card-title"><strong>Security and Trust:</strong></h5>
+                  <p class="card-text">Pondo prioritizes the security and privacy of its users' financial information with state-of-the-art encryption technology and robust security protocols.
+                  Transparent lending practices and clear terms and conditions build trust and confidence among borrowers and savers alike.
+                  Compliance with regulatory standards ensures that Pondo operates within legal frameworks, providing peace of mind to all users.</p>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+<div class="container bcontent">
+  <div class="card" style="width: 100%;">
+      <div class="row no-gutters">
+        <div class="col-sm-7">
+          <div class="card-body text-features2 mt-5">
+              <h5 class="card-title"><strong>Interface:</strong></h5>
+              <p class="card-text">An intuitive and user-friendly interface makes navigating the platform effortless for both borrowers and savers.
+              Mobile compatibility allows users to manage their finances on the go, anytime, anywhere.
+              Personalized recommendations and financial insights empower users to make informed decisions about their borrowing and saving activities.</p>
+          </div>
+      </div>
+          <div class="col-sm-5">
+              <img class="card-img img-fluid" src="images/feature1.jpg" alt="...">
+          </div>
+          
+      </div>
+  </div>
+</div>
+
+<div class="container bcontent">
+      <div class="row no-gutters">
+          <div class="col-sm-5">
+              <img class="card-img img-fluid" src="images/feature5.jpg" alt="...">
+          </div>
+          <div class="col-sm-7">
+              <div class="card-body text-features1 mt-3">
+                  <h5 class="card-title"><strong>Benefits:</strong></h5>
+                  <p class="card-text"><strong>Convenience:</strong> Access lending and saving services from the comfort of your own home, eliminating the need for visits to traditional banks or financial institutions.</p>
+                  <p class="card-text"><strong>Flexibility:</strong> Customize your borrowing and saving experiences to suit your individual financial goals and preferences.</p>
+                  <p class="card-text"><strong>Rates: </strong> Benefit from competitive interest rates on loans and savings accounts, ensuring that your money works harder for you.</p>
+                  <p class="card-text"><strong>Peace of Mind:</strong> Trust in the security and reliability of Pondo to safeguard your financial information and facilitate smooth financial transactions.</p>
+              </div>
+          </div>
+        </div>
+      </div>
+</div>
+
+<div class="container">
+  <hr/>
+</div>
+
+<!-- ==========Contact Us=================== -->
+
+
+<div id="contact" class="container">
+  <div class="row">
+    <div class="col-sm-3">
+      <div class="contact-info">
+        <p class="sub-title"><strong>Contact Information</strong></p>
+        <div>
+          <p>Phone Number</p>
+          <p>+(02)123-45678</p>
+          <p>+69-912-345-678</p>
+        </div>
+        <p class="sub-title">Email</p>
+    <div>
+      <p>info@pondoph.com</p>
+    </div>
+      </div>
+      <p class="sub-title">Address</p>
+        <div>
+          <p>
+            Pondo Lending Corp. 16th floor, The Trade and Financial Tower,
+            corner 7th Ave, Taguig, 1630 Metro Manila, Philippines
+          </p>
+        </div>
+    </div>
+
+    <!----------------------------------- FAQ --------------------------->
+
+    <div id="FAQ" class="col-sm-9">
+            <div id="homefaq">
+              <p class="text-primary"><strong>We are here to help you!</strong></p>
+        
+              <div class="mt-3">
+                  <a class="btn btn-outline-primary collapsed" data-bs-toggle="collapse" href="#question1" role="button" aria-expanded="false" aria-controls="collapseExample">
+                    How do I open an account?
+                  </a>
+                <div class="collapse" id="question1">
+                  <div class="answer">
+                    To open an account with us, simply visit our website or download our mobile app. Follow the prompts to provide your personal information, such as your name, address, and identification details. Once your information is verified, your account will be opened.
+                  </div>
+                </div>
+              </div>
+        
+              <div class="mt-3">
+                <a class="btn btn-outline-primary collapsed" data-bs-toggle="collapse" href="#question2" role="button" aria-expanded="false" aria-controls="collapseExample">
+                  What type of account do you offer?
+                </a>
+        
+                <div class="collapse" id="question2">
+                  <div class="answer">
+                    We offer savings and loan accounts. Each account type has its own features and benefits.
+                  </div>
+                </div>
+              </div>
+        
+              <div class="mt-3">
+
+                <a class="btn btn-outline-primary collapsed" data-bs-toggle="collapse" href="#question3" role="button" aria-expanded="false" aria-controls="collapseExample">
+                  What are the interest rates on savings accounts?
+                </a>
+        
+                <div class="collapse" id="question3">
+                  <div class="answer">
+                    Our interest rates on savings accounts are competitive and may vary depending on market conditions. You can find the current rates on our website or by contacting our customer service team.
+                  </div>
+                </div>
+              </div>
+        
+              <div class="mt-3">
+               
+                <a class="btn btn-outline-primary collapsed" data-bs-toggle="collapse" href="#question4" role="button" aria-expanded="false" aria-controls="collapseExample">
+                  How do I apply for a loan?
+                </a>
+                <div class="collapse" id="question4">
+                  <div class="answer">
+                    Applying for a loan with us is easy! Simply log in to your account and navigate to the loan section. Fill out the application form with the required information, and once submitted, our team will review your application and get back to you with a decision.
+                  </div>
+                </div>
+              </div>
+        
+              <div class="mt-3">
+               
+                <a class="btn btn-outline-primary collapsed" data-bs-toggle="collapse" href="#question5" role="button" aria-expanded="false" aria-controls="collapseExample">
+                  What documentation do I need to apply for a loan?
+                </a>
+                <div class="collapse" id="question5">
+                  <div class="answer">
+                    The documentation required may vary depending on the type of loan you're applying for. Generally, you'll need to provide proof of income, identification, and sometimes collateral for certain types of loans.
+                  </div>
+                </div>
+              </div>
+        
+              <div class="mt-3">
+              
+                <a class="btn btn-outline-primary collapsed" data-bs-toggle="collapse" href="#question6" role="button" aria-expanded="false" aria-controls="collapseExample">
+                  How quickly can I get approved for a loan?
+                </a>
+                <div class="collapse" id="question6">
+                  <div class="answer">
+                    <div>Our approval process is fast and efficient. In many cases, you can receive a decision on your loan application within a few business days. However, the exact timeframe may vary depending on factors such as the type of loan and the completeness of your application.</div>
+                  </div>
+                </div>
+        
+        
+                <div class="mt-3 pb-3">
+                 
+                  <a class="btn btn-outline-primary collapsed" data-bs-toggle="collapse" href="#question7" role="button" aria-expanded="false" aria-controls="collapseExample">
+                    What happens if I miss a loan payment?
+                  </a>
+                  <div class="collapse" id="question7">
+                    <div class="answer">
+                      If you miss a loan payment, you may incur a late fee and it could negatively impact your credit score. It's important to contact us as soon as possible if you're having trouble making payments, as we may be able to offer assistance or alternative arrangements.
+                    </div>
+                  </div>
+              </div>
+        
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    <!---- footer---- -->
+      <div class="container">
+        <hr/>
+      </div>
+    <footer>
+      <div class="footLogo">
+        <p>© 2024 WeFund Lending Corp. All Rights Reserved</p>
+      </div>
+    </footer>
+
+    <!--Scripts-->
+
+    <script>
+      const loginBtn = document.getElementById("logIn");
+
+      function clickLogin(){
+        window.location.href = "login.html"
+      }
+    </script>
+      
+
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"
+  ></script>
+  </body>
+</html>
