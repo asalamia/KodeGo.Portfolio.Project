@@ -1,19 +1,15 @@
 document.getElementById('loginForm').addEventListener('submit', async function(event) {
     event.preventDefault(); // Prevent the default form submission
-    console.log(loginForm);
-    console.log(event);
 
     const email = document.getElementById('email').value;
     const password = document.getElementById('password').value;
-    console.log(email);
-    console.log(password);
 
     // Prepare the data to be sent in the request
     const loginData = {
         email: email,
         password: password
     };
-    console.log(loginData);
+
     try {
         const response = await fetch('http://reqres.in/api/login', {
             method: 'POST',
@@ -37,7 +33,8 @@ document.getElementById('loginForm').addEventListener('submit', async function(e
         // Redirect to another page
         window.location.href = 'login.html';
     } catch (error) {
-        console.error('Error:', error);
+        console.error('Fetch error:', error.message);
+        console.error('Error details:', error);
         alert('Login failed, please try again');
     }
 });
