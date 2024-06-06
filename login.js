@@ -11,7 +11,7 @@ document.getElementById('loginForm').addEventListener('submit', async function(e
     };
 
     try {
-        const response = await fetch('http://reqres.in/api/login', {
+        const response = await fetch('https://reqres.in/api/login', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
@@ -20,18 +20,22 @@ document.getElementById('loginForm').addEventListener('submit', async function(e
         });
 
         if (!response.ok) {
+            console.error('Response status:', response.status);
+            console.error('Response status text:', response.statusText);
             throw new Error('Login failed');
         }
 
         const data = await response.json();
         console.log('Login successful:', data);
+        console.log('Conratulations')
 
         // Handle successful login (e.g., redirect to another page, save token, etc.)
         // For example, save the token to local storage
         localStorage.setItem('authToken', data.token);
+        console.log(data);
 
         // Redirect to another page
-        window.location.href = 'login.html';
+        //window.location.href = 'login.html';
     } catch (error) {
         console.error('Fetch error:', error.message);
         console.error('Error details:', error);
