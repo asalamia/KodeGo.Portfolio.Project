@@ -13,12 +13,13 @@ nav{
 }
 
 #Home{ /* Home background */
-  background: rgb(91,16,240);
-  background-color:rgb(47, 0, 255) ;
-  background-repeat: no-repeat !important;
-  background-size: contain;
-  background-position: center;
+  width: 75%;
+  height: 730px;
+  background-image: url('Images/pondo1.jpg');
+  background-size: 100% 100%;
+  border: 1px solid red;
 }
+
 
 .benefitslist{ /* Home background font "SECURE AND FAST PROCESSING INVESTMENT PROGRAM" */
   font-family: Roboto;

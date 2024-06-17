@@ -37,8 +37,13 @@
 </nav>
 
  <!-- ================Background image Section======================= -->
-<div class="container-fluid">
-  <div id="Home" class="row justify-content-center ">
+<div class="container-fluid" id="Home">
+  <div>
+    <img onclick="clickRegister()" src="Images/applyNow1.png" class="img-fluid mt-5">
+  </div>
+  
+  <!-- <img src="Images/pondo1.jpg" class="img-fluid" alt="Responsive image" > -->
+  <!-- <div id="Home" class="row justify-content-center ">
     <div class="col-12 col-md-6 textblock row justify-content-around">
       <div class="pt-3 ps-0 ps-md-5 align-items-center ms-0 ms-md-5">
         <div class="mb-5 benefitslist d-none d-md-block fs-1">
@@ -61,7 +66,7 @@
         <p>INVESTMENT PROGRAM</p>
       </div>
     </div>
-  </div>
+  </div> -->
 </div>
 
 <!-- Overview -->
@@ -79,7 +84,7 @@
 
 <!-- Key Features / About-Us -->
 
-  <div class="container bcontent">
+  <div class="container bcontent mt-3">
     <hr/>
     <div class="card" style="width: 100%;">
         <div class="row no-gutters">
@@ -98,7 +103,7 @@
     </div>
 </div>
 
-<div class="container bcontent">
+<div class="container bcontent mt-3">
   <div class="card" style="width: 100%;">
       <div class="row no-gutters">
         <div class="col-sm-7">
@@ -117,7 +122,7 @@
   </div>
 </div>
 
-<div class="container bcontent">
+<div class="container bcontent mt-3">
   <div class="card" style="width: 100%;">
       <div class="row no-gutters">
           <div class="col-sm-5">
@@ -135,7 +140,7 @@
   </div>
 </div>
 
-<div class="container bcontent">
+<div class="container bcontent mt-3">
   <div class="card" style="width: 100%;">
       <div class="row no-gutters">
         <div class="col-sm-7">
@@ -154,7 +159,7 @@
   </div>
 </div>
 
-<div class="container bcontent">
+<div class="container bcontent mt-3">
       <div class="row no-gutters">
           <div class="col-sm-5">
               <img class="card-img img-fluid" src="Images/feature5.jpg" alt="...">
@@ -317,6 +322,15 @@
         window.location.href = "login.html"
       }
     </script>
+
+<script>
+  const registerBtn = document.getElementById("register");
+
+  function clickRegister(){
+    window.location.href = "signup.html"
+  }
+  
+</script>
       
 
     <script

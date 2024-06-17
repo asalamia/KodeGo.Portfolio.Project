@@ -28,6 +28,7 @@ document.getElementById('loginForm').addEventListener('submit', async function(e
         const data = await response.json();
         console.log('Login successful:', data);
         console.log('Conratulations')
+        alert('Congratulations Login successful',data);
 
         // Handle successful login (e.g., redirect to another page, save token, etc.)
         // For example, save the token to local storage
