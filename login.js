@@ -35,8 +35,8 @@ document.getElementById('loginForm').addEventListener('submit', async function(e
         localStorage.setItem('authToken', data.token);
         console.log(data);
 
-        // Redirect to another page
-        //window.location.href = 'login.html';
+        //Redirect to another page
+        window.location.href = 'profile.html';
     } catch (error) {
         console.error('Fetch error:', error.message);
         console.error('Error details:', error);
